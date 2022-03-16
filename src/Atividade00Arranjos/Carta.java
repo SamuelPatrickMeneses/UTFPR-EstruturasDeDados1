@@ -25,6 +25,8 @@ public class Carta{
     public void setNipe(String nipe) {
         this.nipe = nipe;
     }
-    
-    
+    @Override
+    public String toString(){
+        return String.format(" %s de %s \n",nome ,nipe);
+    }
 }
